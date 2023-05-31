@@ -1,0 +1,29 @@
+baseurl: "https://bernfurs.ch"
+copyright: "Sofern nicht anders angegeben, ist der Inhalt dieser Website unter der [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed)-Lizenz lizenziert."
+enablerobotstxt: true
+defaultContentLanguage: "de"
+languages:
+  de:
+    languageCode: de-CH
+    languageName: Deutsch (Schweiz)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+module:
+  imports:
+    - path: "github.com/willfaught/paige"
+outputs:
+  home:
+    - "html"
+    - "json"
+    - "rss"
+paginate: 50
+params:
+  paige:
+    analytics:
+      disable: true
+    comments:
+      disable: true
+timezone: "Europe/Zurich"
+titlecasestyle: "Go"
