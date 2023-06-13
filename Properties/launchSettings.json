@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Bernfurs": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60396;http://localhost:60397"
+    }
+  }
+}
