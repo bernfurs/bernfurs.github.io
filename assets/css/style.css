@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Sarabun:400,500,600,700,800|Sen:400,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Orbitron:400,500,600,700,800|Sarabun:400,500,600,700,800|Sen:400,700&display=swap";
 
 .white-bg {
     background: #fff
@@ -73,6 +73,12 @@
 
 .boxed-btn.large-width {
     width: 220px
+}
+
+.logo-name {
+    font-size: 23pt;
+    font-family: 'Orbitron';
+    font-weight: 600;
 }
 
 [data-overlay] {
@@ -3664,6 +3670,10 @@ hr {
     transform: scale(1);
     -webkit-transition: all .6s ease-out 0s;
     transition: all .6s ease-out 0s
+}
+
+.team-img img {
+    max-width: 100%;
 }
 
 .team-area .single-team .team-caption {
