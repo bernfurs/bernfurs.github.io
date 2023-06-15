@@ -3114,6 +3114,7 @@ hr {
 .gallery-area .gallery-box .single-gallery .gallery-img {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 486px
 }
 
