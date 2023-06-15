@@ -2546,6 +2546,10 @@ hr {
     padding: 0 130px
 }
 
+.header-padding {
+    margin-top: 102px;
+}
+
 @media only screen and (min-width:1200px) and (max-width:1600px) {
     .header-area .main-header {
         padding: 0 30px
@@ -2562,17 +2566,29 @@ hr {
     .header-area .main-header {
         padding: 22px 50px
     }
+
+    .header-padding {
+        margin-top: 115px;
+    }    
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
     .header-area .main-header {
         padding: 22px 20px
     }
+
+    .header-padding {
+        margin-top: 115px;
+    }    
 }
 
 @media(max-width:575px) {
     .header-area .main-header {
         padding: 22px 14px
+    }
+
+    .header-padding {
+        margin-top: 115px;
     }
 }
 
@@ -6945,10 +6961,6 @@ del {
 
 .switch-wrap {
     margin-bottom: 10px
-}
-
-.header-padding {
-    margin-top: 103px
 }
 
 .pay-card {
