@@ -75,10 +75,15 @@
     width: 220px
 }
 
-.logo-name {
+html {
+    scroll-padding-top: 102px;
+}
+
+.col-name {
     font-size: 23pt;
     font-family: 'Orbitron';
     font-weight: 600;
+    padding-left: 0;
 }
 
 [data-overlay] {
@@ -219,7 +224,9 @@ a:hover {
 .obvious-anchor {
     text-decoration: underline;
 }
-.obvious-anchor:hover, .obvious-anchor:active {
+
+.obvious-anchor:hover,
+.obvious-anchor:active {
     text-decoration: underline;
     color: #9c9c9c;
 }
@@ -3479,7 +3486,8 @@ hr {
     position: relative
 }
 
-.about-caption p, .about-caption a {
+.about-caption p,
+.about-caption a {
     color: #64676c;
     line-height: 1.6;
     font-size: 16px;
