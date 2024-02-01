@@ -1550,6 +1550,11 @@ blockquote {
   color: #fff;
 }
 
+.paragraph-large.text-center {
+  flex-direction: row;
+  display: flex;
+}
+
 .margin-bottom-12 {
   margin-bottom: 12px;
 }
@@ -3586,6 +3591,18 @@ blockquote {
   text-align: center;
 }
 
+.image {
+  max-width: 150px;
+  margin-top: 0;
+  margin-right: 40px;
+}
+
+.div-block-3 {
+  flex-direction: row-reverse;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .section-regular {
     padding-top: 64px;
@@ -4127,6 +4144,16 @@ blockquote {
   .vorstand-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .image {
+    margin: 20px;
+  }
+
+  .div-block-3 {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4257,6 +4284,10 @@ blockquote {
     grid-template-columns: 1fr;
     grid-auto-columns: 1fr;
     display: grid;
+  }
+
+  .image {
+    display: none;
   }
 }
 
